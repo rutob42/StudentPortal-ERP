@@ -1,0 +1,277 @@
+[33m7e32fce08[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mStudentPortal[m[33m)[m Creation of student Portal with integration of an ERP system and a catering system
+[33meb8085cf7[m[33m ([m[1;33mtag: [m[1;33mv11.5.0[m[33m)[m [11.x] Update `config/mail.php` with supported configuration (#6506)
+[33ma39cb7cf5[m Update CHANGELOG
+[33m0993d09dc[m[33m ([m[1;33mtag: [m[1;33mv11.4.0[m[33m)[m Upgrade to Vite 6 (#6498)
+[33m8b67958f4[m Narrow down array types (#6497)
+[33m980ef58fd[m Update CHANGELOG
+[33m2eacb3d0f[m[33m ([m[1;33mtag: [m[1;33mv11.3.3[m[33m)[m wip
+[33m3b146114e[m match `HidesAttributes` docblocks (#6495)
+[33m3622d746f[m Update composer.json (#6490)
+[33mbc03c8d74[m Update .gitignore (#6486)
+[33m70f437b6f[m Add $schema property to composer.json (#6484)
+[33m2e6ac2c9d[m Inconsistency in Github action names (#6478)
+[33m61fec7b89[m Update CHANGELOG
+[33m82a83a698[m[33m ([m[1;33mtag: [m[1;33mv11.3.2[m[33m)[m Fixes pail timing out after an hour (#6473)
+[33m1c880c36e[m Update CHANGELOG
+[33mf9f5e3c3a[m[33m ([m[1;33mtag: [m[1;33mv11.3.1[m[33m)[m wip
+[33mea60b55f9[m Update CHANGELOG
+[33m6c3d2fb4a[m[33m ([m[1;33mtag: [m[1;33mv11.3.0[m[33m)[m adjust colors
+[33m2f17c9764[m remove retries
+[33m0973f0a33[m add restart tries
+[33mb378ce946[m Add Tailwind, "composer run dev" (#6463)
+[33ma61a6361e[m Update CHANGELOG
+[33m49bceac41[m[33m ([m[1;33mtag: [m[1;33mv11.2.1[m[33m)[m Update welcome.blade.php to add missing alt tag (#6462)
+[33mc9c8fb9ee[m Refactor User model to use HasFactory trait and add type hint for UserFactory (#6453)
+[33m6e71b994e[m Update composer.json (#6454)
+[33me0421a4ec[m Update CHANGELOG
+[33mbab16982d[m[33m ([m[1;33mtag: [m[1;33mv11.2.0[m[33m)[m private files (#6450)
+[33m168e68593[m Update .gitignore with Zed Editor (#6449)
+[33mf0a12c660[m Update CHANGELOG
+[33mc12fd185e[m[33m ([m[1;33mtag: [m[1;33mv11.1.5[m[33m)[m Update package.json (#6440)
+[33m6ebd9fed8[m Update CHANGELOG
+[33m2897a49c6[m[33m ([m[1;33mtag: [m[1;33mv11.1.4[m[33m)[m add sqlite options
+[33m4ef5e2f89[m Update CHANGELOG
+[33m69917ece2[m[33m ([m[1;33mtag: [m[1;33mv11.1.3[m[33m)[m [11.x] Comment maintenance store (#6429)
+[33m3b239422d[m Update CHANGELOG
+[33m47fb90a8c[m[33m ([m[1;33mtag: [m[1;33mv11.1.2[m[33m)[m Apply fixes from StyleCI
+[33m3fd8dd853[m Expose lock table name (#6423)
+[33m3b3f9f13f[m Update CHANGELOG
+[33mad38e564a[m[33m ([m[1;33mtag: [m[1;33mv11.1.1[m[33m)[m Format the first letter of `drivers` to lowercase (#6413)
+[33mb6d55576d[m Update CHANGELOG
+[33m5d86ab4b7[m[33m ([m[1;33mtag: [m[1;33mv11.1.0[m[33m)[m Removes `spatie/laravel-ignition` (#6406)
+[33m76510a70c[m Update CHANGELOG
+[33mb651fb109[m[33m ([m[1;33mtag: [m[1;33mv11.0.9[m[33m)[m updated mail config (#6402)
+[33m564e04381[m Update CHANGELOG
+[33m043a454ab[m[33m ([m[1;33mtag: [m[1;33mv11.0.8[m[33m)[m Add .phpactor.json to .gitignore (#6400)
+[33mb3df041d8[m Update CHANGELOG
+[33m4b1588713[m[33m ([m[1;33mtag: [m[1;33mv11.0.7[m[33m)[m add resend
+[33me7cc5778a[m resend
+[33mcf0b40b87[m Remove obsolete driver option (#6395)
+[33m0259455a1[m Update CHANGELOG
+[33m3cb22426e[m[33m ([m[1;33mtag: [m[1;33mv11.0.6[m[33m)[m Add missing roundrobin transport driver config (#6392)
+[33m708fdb1a3[m Fix PHPUnit constraint (#6389)
+[33m9e2d6f649[m Update CHANGELOG
+[33m58baff2c7[m[33m ([m[1;33mtag: [m[1;33mv11.0.5[m[33m)[m [11.x] Use PHPUnit v11 (#6385)
+[33m93f660c17[m Update CHANGELOG
+[33m441845d88[m[33m ([m[1;33mtag: [m[1;33mv11.0.4[m[33m)[m [11.x] Fix on hover animation and ring (#6376)
+[33m6f5d9b888[m Fix retry_after to be an integer (#6377)
+[33meb8f9dc2d[m [11.x] Removed useless null parameter for env helper (#6373)
+[33m51c4166bf[m [11.x] Removed useless null parameter for env helper (cache.php) (#6374)
+[33ma6ce688ad[m Update CHANGELOG
+[33m087543a48[m[33m ([m[1;33mtag: [m[1;33mv11.0.3[m[33m)[m Revert collation change (#6372)
+[33m881f890b9[m Update CHANGELOG
+[33m075c38c9e[m[33m ([m[1;33mtag: [m[1;33mv11.0.2[m[33m)[m Update CHANGELOG
+[33m79969c99c[m change mariadb default
+[33mdd0bf5c5a[m Update welcome.blade.php (#6363)
+[33me7aa6346d[m Remove branch alias from composer.json (#6366)
+[33m6ea57d766[m[33m ([m[1;33mtag: [m[1;33mv11.0.1[m[33m)[m [11.x] Fixes SQLite driver missing (#6361)
+[33mc1fc3a0e6[m[33m ([m[1;33mtag: [m[1;33mv11.0.0[m[33m)[m Adjusts minimum stability
+[33mec8b74030[m Prepare 11.x branch
+[33me28752328[m Add Laravel Herd (#6356)
+[33m512e86649[m Merge branch '10.x'
+[33m1ee784938[m Add DB_CHARSET + DB_COLLATION (#6355)
+[33mdd6777099[m Removes notes
+[33m90a0a16e0[m Recompile styles (#6354)
+[33mf76b09d21[m Implement L11 welcome page design (#6335)
+[33m9ec283d28[m Uses `env` on postmark email commented code as docs (#6350)
+[33mf12dd8de2[m Removes broadcasting (#6351)
+[33mf437205a5[m slim configuration
+[33m96508d43e[m wip
+[33m27907e018[m update env example file
+[33m8172528d3[m use empty cache prefix in env example
+[33m151eac5c1[m remove comments
+[33mbf1c2b7a1[m [11.x] Adds Reverb config (#6341)
+[33md2b3ab245[m Moves `withProviders` to configure internally (#6340)
+[33m65cfa7188[m Update CHANGELOG
+[33m059f45ab9[m Merge branch '10.x'
+[33md3287461e[m[33m ([m[1;33mtag: [m[1;33mv10.3.3[m[33m)[m wip
+[33mdc4e89b65[m add bcrypt rounds to env example file
+[33m202617314[m Update README.md
+[33m7df47a260[m simple health route
+[33m86c7c863d[m slim bootstrap file
+[33me1d396c67[m add note to provider file
+[33mcde09e632[m [11.x] Adjusts default mail environment variables (#6325)
+[33ma186ebf4a[m wip
+[33m1f7e88072[m Requires Guzzle on `laravel/framework` (#6324)
+[33m295424704[m Fixes `APP_MAINTENANCE_DRIVER` value for testing
+[33m3898059e0[m explicit directory
+[33m5955d2e4f[m revert quietness
+[33m27a4111fc[m run database migrations quietly on create project
+[33me23c0c1bf[m SQLite for local dev (#6322)
+[33mb1502f3c0[m slim comments
+[33m1ad4708dd[m Merge branch '10.x'
+[33mdd60315e9[m [11.x] Simplify PHP comments (#6316)
+[33m6292958a6[m [11.x] Removed unused using in public/index.php (#6315)
+[33mb726807a9[m Uses Tinker's stable branch
+[33m2254e8e30[m Update CHANGELOG
+[33mf3b9740d5[m Move spatie/laravel-ignition to dev dependencies
+[33m1a4d1dc81[m[33m ([m[1;33mtag: [m[1;33mv10.3.2[m[33m)[m Update Axios to latest version (#6313)
+[33m14bc24d23[m Adds Laravel Ignition (#6312)
+[33m2529041f3[m Merge branch '10.x'
+[33m13a81bf92[m Removes `CreatesApplication` (#6310)
+[33m1674895c0[m [11.x] Bumps versions on `composer.json` (#6311)
+[33m6f6cfb020[m Update Axios to latest version (#6306)
+[33mb191f9d08[m Merge branch '10.x'
+[33m0c8372a2e[m Reverts `assertOk` change (#6303)
+[33m705f97c5c[m Update CHANGELOG
+[33m9e3fbaa56[m Uses `CACHE_STORE` instead of `CACHE_DRIVER` (#6302)
+[33m890835b7a[m[33m ([m[1;33mtag: [m[1;33mv10.3.1[m[33m)[m [10.x] Add roundrobin transport driver config (#6301)
+[33m07fdfbc8d[m Update CHANGELOG
+[33m647c9bc29[m[33m ([m[1;33mtag: [m[1;33mv10.3.0[m[33m)[m Update version requirement (#6292)
+[33m5d93ebdb7[m Revert "Fixes tests failing due database not available (#6297)" (#6299)
+[33m0071cc80c[m update drivers
+[33me15fbbe54[m Fixes tests failing due database not available (#6297)
+[33m39532486b[m wip
+[33m3f1426a55[m Revert "Rename migration tables (#6295)" (#6298)
+[33mb86e53bc7[m Rename migration tables (#6295)
+[33mdb67662ca[m update maintenance defaults
+[33mfeded74d9[m wip
+[33m4705136d1[m disable pulse for testing
+[33m3142d3feb[m Use `assertOk()` instead of `assertStatus(200)` (#6287)
+[33me57d15ac8[m Update CHANGELOG
+[33mb7ae61bb4[m fix conflicts
+[33md6a2d8b83[m[33m ([m[1;33mtag: [m[1;33mv10.2.10[m[33m)[m [10.x] Add partitioned cookie config key (#6257)
+[33m428a19005[m [11.x] Slim skeleton (#6188)
+[33m645e13d69[m fix conflicts
+[33m73cf5bc5b[m [10.x] Fixes missing property description (#6275)
+[33m4d3c3a130[m Update CHANGELOG
+[33ma546b52b3[m[33m ([m[1;33mtag: [m[1;33mv10.2.9[m[33m)[m Update package.json (#6272)
+[33mde6d4f58c[m fixing conflicts
+[33m40a7605dc[m Update CHANGELOG
+[33m024c86a24[m[33m ([m[1;33mtag: [m[1;33mv10.2.8[m[33m)[m Revert "Let database handle default collation (#6241)" (#6266)
+[33mc7098938d[m Update CHANGELOG
+[33mad1c5fe4c[m[33m ([m[1;33mtag: [m[1;33mv10.2.7[m[33m)[m Redis maintenance store config example contains an excess space (#6264)
+[33m21ad6d691[m Verify algo (#6258)
+[33mb0b29e129[m [10.x] Update minimum `laravel/sanctum` (#6261)
+[33m424c99c5b[m Set new Sail constraint (#6260)
+[33m7fe97a165[m [10.x] Update fixture hash to match testing cost (#6259)
+[33m036ea83da[m Uses `actions/checkout@v4`
+[33m96fb350fb[m Re-adds tinker (#6254)
+[33m645ab9030[m Fixes build of `dev-master` (#6252)
+[33m25070a3ff[m Fix typo in the comment for token prefix (sanctum config) (#6248)
+[33m960ea7b32[m Update README.md
+[33m78243dda8[m Update README.md
+[33m8e5f0e5d0[m Use 12 bcrypt rounds for password in UserFactory (#6247)
+[33m540cec038[m Increase bcrypt rounds to 12 (#6245)
+[33m88695a7cf[m Add PHP 8.3 to Tests Matrix (#6244)
+[33m74c5a01b0[m Let database handle default collation (#6241)
+[33m96d3ecf5c[m Revert "Fix incorrect collation for MySQL 8 (#6239)" (#6240)
+[33mc088b3b76[m Fix incorrect collation for MySQL 8 (#6239)
+[33m8dc6ced55[m Merge branch '10.x'
+[33mbfead27a2[m [10.x] Update sanctum config file (#6234)
+[33m17f94e308[m fix conflicts
+[33m32ecad53a[m Postmark mailer configuraiton update. (#6228)
+[33m56c6f6b6b[m Update CHANGELOG
+[33m36047268f[m[33m ([m[1;33mtag: [m[1;33mv10.2.6[m[33m)[m Bump `laravel-vite-plugin` to latest version (#6224)
+[33m04a8e8553[m Update CHANGELOG
+[33mf419821bd[m[33m ([m[1;33mtag: [m[1;33mv10.2.5[m[33m)[m shorten directories
+[33m6c1a39b5b[m Omit default values for suffix in phpunit.xml (#6210)
+[33me96d21dd2[m [11.x]: Use `ses-v2` as default `ses` mail transport (#6205)
+[33m3ac233abb[m Allow accessing APP_NAME in Vite (#6204)
+[33mf31772234[m Update CHANGELOG
+[33m84991f230[m[33m ([m[1;33mtag: [m[1;33mv10.2.4[m[33m)[m Update Kernel.php (#6193)
+[33ma410a5af4[m Update CHANGELOG
+[33ma5fddf7bc[m fix conflicts
+[33mb1011d168[m Laravel v11 compatible versions
+[33m64173fbed[m dev stability
+[33m64f3d149c[m Prepare v11
+[33m85203d687[m[33m ([m[1;33mtag: [m[1;33mv10.2.3[m[33m)[m update description
+[33m812bfb691[m Update CHANGELOG
+[33ma6bfbc7f9[m[33m ([m[1;33mtag: [m[1;33mv10.2.2[m[33m)[m add lock path
+[33mfb8e9cee7[m Update CHANGELOG
+[33m953eae293[m[33m ([m[1;33mtag: [m[1;33mv10.2.1[m[33m)[m Bring back cluster config option, as required by pusher-js v8.0. (#6174)
+[33m7e0a2db2e[m Add hashed cast to user password (#6171)
+[33m90acdfe92[m Update CHANGELOG
+[33m150e379ce[m[33m ([m[1;33mtag: [m[1;33mv10.2.0[m[33m)[m Update mail.php (#6170)
+[33md3b2eada8[m Migrate to modules (#6090)
+[33md14bdeeb6[m Update welcome.blade.php (#6163)
+[33m5070934fc[m Update CHANGELOG
+[33mec38e3bf7[m[33m ([m[1;33mtag: [m[1;33mv10.1.1[m[33m)[m Fix laravel/framework constraints for Default Service Providers (#6160)
+[33m05a41f8a4[m Update CHANGELOG
+[33mbadcf92f9[m Update CHANGELOG
+[33mebf9d30bf[m[33m ([m[1;33mtag: [m[1;33mv10.1.0[m[33m)[m [10.x] Minor skeleton slimming (#6159)
+[33m64685e6f2[m[33m ([m[1;33mtag: [m[1;33mv10.0.7[m[33m)[m Adds `phpunit/phpunit@10.1` support (#6155)
+[33m7cc6699c3[m clean up comment
+[33ma25f40590[m Update CHANGELOG
+[33m0bcd012dc[m[33m ([m[1;33mtag: [m[1;33mv10.0.6[m[33m)[m Add job batching options to Queue configuration file (#6149)
+[33m9184b2121[m Update CHANGELOG
+[33m9ae75b58a[m[33m ([m[1;33mtag: [m[1;33mv10.0.5[m[33m)[m [10.x] Add replace_placeholders to log channels (#6139)
+[33md39fb35b4[m Update CHANGELOG
+[33m22df611a2[m[33m ([m[1;33mtag: [m[1;33mv10.0.4[m[33m)[m Specify facility in the syslog driver config (#6130)
+[33ma337b99df[m Fix typo (#6128)
+[33m9507bf2b2[m Update CHANGELOG
+[33m37ab32cf7[m[33m ([m[1;33mtag: [m[1;33mv10.0.3[m[33m)[m Update CHANGELOG.md
+[33m63202ceb0[m Update .gitignore (#6123)
+[33me121424f9[m Reverts #6089 (#6122)
+[33m330995f6b[m Remove redundant `@return` docblock in UserFactory (#6119)
+[33m589b36d04[m Laravel v11 compatible versions
+[33m3c2609acb[m Merge branch '10.x'
+[33m1bb530c60[m Revert "add ses-v2 mailer in config (#6112)" (#6115)
+[33ma1ef00941[m add ses-v2 mailer in config (#6112)
+[33mc909b037a[m Missing comma (#6111)
+[33m4ca1a394f[m Update CHANGELOG
+[33m3986d4c54[m[33m ([m[1;33mtag: [m[1;33mv10.0.2[m[33m)[m remove unneeded call
+[33mbdd61ef5e[m Update CHANGELOG
+[33mc5744721b[m Merge branch '10.x'
+[33mad279a61d[m[33m ([m[1;33mtag: [m[1;33mv10.0.1[m[33m)[m Allow php-http/discovery as a composer plugin (#6106)
+[33m36202b201[m Add PHPUnit result cache to gitignore (#6105)
+[33m9c4cef107[m note ses-v2
+[33md90ea8a79[m Merge branch '10.x'
+[33me4abd484e[m Remove branch-alias from composer.json (#6103)
+[33mf32a9d64b[m dev stability
+[33m1df3be484[m Prepare v11
+[33m674fbcceb[m Update CHANGELOG.md
+[33macd0f29ac[m[33m ([m[1;33mtag: [m[1;33mv10.0.0[m[33m)[m update min stability
+[33mf48a46bf2[m Merge branch '9.x' into 10.x
+[33mf19397bce[m Update package.json (#6100)
+[33m4e957b290[m Tweaks Laravel description (#6099)
+[33m6f4cea411[m remove lodash (#6095)
+[33m5b60b604c[m[33m ([m[1;31morigin/9.x[m[33m, [m[1;31mcomposer/9.x[m[33m)[m [9.x] Adds clarification to throttle auth setting (#6096)
+[33m61a14cdcc[m remove shop for now while store being redone
+[33md73651553[m [10.x] A fresh welcome page (#6093)
+[33m18c6b2b39[m update change log
+[33m135e35ba7[m fix conflicts
+[33m842f511ec[m remove lang directory by default
+[33m99b1d9732[m [10.x] Adds PHPUnit 10 support (#6052)
+[33m5eb99fcae[m sets ASSET_URL to use / as the default value (#6089)
+[33mc0b60c0ac[m Update CHANGELOG
+[33m6092ff46b[m[33m ([m[1;33mtag: [m[1;33mv9.5.2[m[33m)[m update example
+[33me0a5b0efb[m document new options
+[33ma28ad2966[m rename password reset tokens table in skeleton
+[33medcbe6de7[m rename property for clarity
+[33mde868f0fc[m Use nullable typing (#6084)
+[33mf62d260c7[m remove dispatches job trait
+[33mcfe893dbf[m adjust wording
+[33md0c8f4942[m Merge branch '9.x'
+[33ma55085b85[m Uses Laravel Ignition `v2.x` (#6079)
+[33m9c26e6121[m Adds "missing" validation rule translations (#6078)
+[33m6b7fc5098[m Update CHANGELOG
+[33m1d0dad938[m Use dev stability for master
+[33m875e6f17e[m Merge branch '9.x'
+[33m5c7cc8eee[m[33m ([m[1;33mtag: [m[1;33mv9.5.1[m[33m)[m Keeps `"prefer-stable": true`
+[33m75d22431a[m Removes redundant composer setting
+[33mc1092ec08[m use min stability stable
+[33maf241e157[m Update composer.json
+[33m8f5346e3a[m Merge branch '9.x'
+[33m28894568f[m Update composer.json
+[33mb4573d5cd[m Update CHANGELOG
+[33m55af5469c[m [10.x] Uses PHP Native Type Declarations 🐘 (#6010)
+[33m091aa7d88[m[33m ([m[1;33mtag: [m[1;33mv9.5.0[m[33m)[m switch email to a primary key (#6064)
+[33m21b826f3d[m Updated git configuration to use LF line endings by default (#6061)
+[33mca01443b9[m [9.x] Support pusher-js v8.0 (#6059)
+[33m1fd1e03fc[m Update to Heroicons v2 (#6051)
+[33mf1f20728a[m Updated tests badge (#6050)
+[33m42f585783[m Update CHANGELOG
+[33m39f4830e9[m[33m ([m[1;33mtag: [m[1;33mv9.4.1[m[33m)[m add decimal translation
+[33m52b741c79[m Update CHANGELOG
+[33m1b0d33cd8[m[33m ([m[1;33mtag: [m[1;33mv9.4.0[m[33m)[m Update package.json
+[33mbc420da07[m vite 4 support (#6043)
+[33md412d5bae[m Add ulid and ascii validation message (#6046)
+[33m9fb954fb9[m Merge branch '9.x'
+[33m88b2d177f[m Create issues.yml
+[33m71c77805d[m Update CHANGELOG
+[33m8a8730c99[m[33m ([m[1;33mtag: [m[1;33mv9.3.12[m[33m)[m bump vite plugin (#6038)
+[33m040d54881[m Update CHANGELOG
+[33m21964ec81[m[33m ([m[1;33mtag: [m[1;33mv9.3.11[m[33m)[m validation rules sorting consistency (#6031)
+[33m69e2cce9c[m Update validation.php (#6029)
+[33m3762b4172[m Adds lowercase validation rule translation (#6028)
