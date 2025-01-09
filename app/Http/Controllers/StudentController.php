@@ -5,43 +5,38 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use App\Models\Student;
 use App\Models\Department;
-use App\Models\Course;
 use Illuminate\Http\Request;
 
 class StudentController extends Controller
 {
-    //show all students
     public function index()
     {
         $students = Student::all();
         return view('students.index', compact('students'));
     }
 
-    //show the form for creating a new student
     public function create()
     {
-        $department = Department::all();
-        return view('students.create', compact('department'));  
+        $departments = Department::all();
+        return view('students.create', compact('departments'));
     }
 
-    //store a newly created student in storage
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'first_name' => 'required',
-            'last_name' => 'required',
-            'email' => 'required',
-            'department_id' => 'required'
+            'first_name' => 'required|string|max:255',
+            'last_name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'department_id' => 'required|exists:departments,id',
         ]);
 
-        $student = Student::create($validated);
+        Student::create($validated);
         return redirect()->route('students.index');
     }
 
-    //show a single student's details
     public function show($id)
     {
-        $student = Student::findorFail($id);
+        $student = Student::findOrFail($id);
         return view('students.show', compact('student'));
     }
 }

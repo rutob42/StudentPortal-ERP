@@ -3,11 +3,11 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
+use App\Models\Department;
 use Illuminate\Http\Request;
 
 class DepartmentController extends Controller
 {
-    //show all departments
     public function index()
     {
         $departments = Department::all();
@@ -19,7 +19,6 @@ class DepartmentController extends Controller
         return view('departments.create');
     }
 
-    // Store a new department
     public function store(Request $request)
     {
         $validated = $request->validate([

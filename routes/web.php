@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Route;
 //students route
 Route::resource('students',StudentController::class);
 
+
 //courses route
 Route::resource('courses',CourseController::class);
 

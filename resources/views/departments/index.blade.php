@@ -1,5 +1,7 @@
 @extends('layouts.app')
 
+@section('title', 'Departments List')
+
 @section('content')
     <h1>All Departments</h1>
     <a href="{{ route('departments.create') }}">Add New Department</a>
